@@ -1,7 +1,8 @@
 body{
     background-image: url("https://deih43ym53wif.cloudfront.net/long-beach-phu-quoc-best-beaches-in-vietnam_shutterstock_389435179_36e9b14cff.jpeg");
+    
     color: white;
-    margin: 0;
+    margin: 1%;
 }
 .header-fixed {
     position: fixed;
@@ -30,6 +31,7 @@ body{
     /* font-weight: bold; */
     color: #fff;
     text-decoration: none;
+    margin-left: 4%;
 }
 .navbar nav {
     flex: 8;
@@ -170,4 +172,57 @@ body{
     .navbar label {
       display: none;
     }
+}
+#mainpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+#mainpage img{
+    border-radius: 50%;
+    height: 20%;
+}
+section p{
+    align-self:flex-start;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+section  h1{
+    align-self: center;
+    
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top:10%;
+   
+}
+
+
+.fa-github{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    
+    
+   
+   
+}
+.fa-google{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+   
+}
+.fa-linkedin{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+
+   
 }
