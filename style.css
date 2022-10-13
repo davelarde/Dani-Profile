@@ -101,7 +101,7 @@ body{
 .header #navbar-toggle:checked ~ label:not(.steps) i:after {
   top: 0;
 }
-
+/* media screen for navbar , trying to make hamburger menu */
 @media (max-width: 768px) {
     .navbar nav {
       visibility: hidden;
@@ -186,6 +186,8 @@ body{
 #mainpage img{
     border-radius: 50%;
     height: 20%;
+    
+    
 }
 section p{
     align-self:flex-start;
