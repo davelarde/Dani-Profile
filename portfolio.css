@@ -3,7 +3,7 @@ body{
   flex-direction: column;
     background-image: url("https://deih43ym53wif.cloudfront.net/long-beach-phu-quoc-best-beaches-in-vietnam_shutterstock_389435179_36e9b14cff.jpeg");
     margin-top: 5%;
-
+/*  here starts navbar */
 }
 .header-fixed {
     position: fixed;
@@ -76,7 +76,7 @@ body{
 .navbar label i:after {
   top: -5px;
 }
-
+/*  for media screen menu */
 .navbar #navbar-toggle {
   display: none;
 }
@@ -102,7 +102,7 @@ body{
 .header #navbar-toggle:checked ~ label:not(.steps) i:after {
   top: 0;
 }
-
+/* media screen navbar with max-width */
 @media (max-width: 768px) {
     .navbar nav {
       visibility: hidden;
@@ -144,7 +144,7 @@ body{
       color: whitesmoke;
     }
 }
-
+/*  media screen for navbar */
 @media (min-width: 768px) {
     .navbar nav ul {
       margin: 0;
@@ -213,6 +213,8 @@ footer{
     padding: 10px;
 
 }
+
+/* cards section */
 
 #container{
 	box-shadow: 0 15px 30px 1px grey;
