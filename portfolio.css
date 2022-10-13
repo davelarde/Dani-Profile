@@ -90,7 +90,7 @@ body{
   border-radius: 50%;    
 }
 .header #navbar-toggle:checked ~ label i {
-  background: transparent;
+  background:black;
 }
 .header #navbar-toggle:checked ~ label i:before {
   transform: rotate(-45deg);
@@ -395,12 +395,14 @@ color: black}
     flex-direction: row;
     width: 350px;
     height:100px;
+    
   }
   .product-image{
     display: flex;
     flex-direction: column;
     width: 20rem;
     margin-top: 20%;
+
   }
 }
   
