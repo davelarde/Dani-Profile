@@ -76,7 +76,7 @@ body{
 .navbar label i:after {
   top: -5px;
 }
-/*  for media screen menu */
+/*  for media screen */
 .navbar #navbar-toggle {
   display: none;
 }
@@ -326,30 +326,11 @@ color: black}
 	margin:0;
 	
 }
-.btn .price, .shopping-cart{
-	background: #333;
-	border: 0;
-	margin: 0;
-}
 
-.btn .price {
-	transform: translateX(-10%); padding-right: 15px;
-}
 
-.btn .shopping-cart {
-	transform: translateX(-100%);
-  position: absolute;
-	background: #333;
-	z-index: 1;
-  left: 0;
-  top: 0;
-}
 
-.btn .buy {z-index: 3; font-weight: bolder;}
+.btn .visit {z-index: 3; font-weight: bolder;}
 
-.btn:hover .price {transform: translateX(-110%);}
-
-.btn:hover .shopping-cart {transform: translateX(0%);}
 
 
 
